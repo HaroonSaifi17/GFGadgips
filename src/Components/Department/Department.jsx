@@ -3,9 +3,10 @@ import './Department.css'
 
 function Department() {
   return (
-    <div>
-      Department
-    </div>
+    <>
+      <div className="departmentbg-wpr"></div>
+      <div>Department</div>
+    </>
   )
 }
 

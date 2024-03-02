@@ -7,7 +7,7 @@ function About() {
       <div className="bg-wpr"></div>
       <div className="about">
         <div className="about-wpr">
-          <div>
+          <div className="min-w-[220px]">
             <h2>How we work ?</h2>
             <img src="/assets/about1.png" alt="about1" />
             <p>
@@ -17,7 +17,7 @@ function About() {
               future.
             </p>
           </div>
-          <div>
+          <div className="min-w-[220px]">
             <h2>Our Goal</h2>
             <img src="/assets/about2.png" alt="about2" />
             <p>
@@ -26,7 +26,7 @@ function About() {
               and compete on a global scale.
             </p>
           </div>
-          <div>
+          <div className="min-w-[220px]">
             <h2>Why Should you Join Us?</h2>
             <img src="/assets/about3.png" alt="about3" />
             <p>

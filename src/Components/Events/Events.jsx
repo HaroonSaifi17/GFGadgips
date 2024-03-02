@@ -3,9 +3,10 @@ import './Events.css'
 
 function Events() {
   return (
-    <div>
-      Events
-    </div>
+    <>
+      <div className="eventbg-wpr"></div>
+      <div>event</div>
+    </>
   )
 }
 
