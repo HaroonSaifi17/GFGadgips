@@ -59,3 +59,11 @@
   min-height: 65px;
   line-height: 32px;
 }
+
+.zoom {
+  transition: transform 0.3s; /* Animation duration */
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* 150% zoom (Note: if the zoom is too large, it may go outside of the viewport) */
+}

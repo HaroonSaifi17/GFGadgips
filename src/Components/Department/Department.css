@@ -10,3 +10,11 @@
   right: 0;
   z-index: -10;
 }
+
+.zoom {
+  transition: transform 0.3s; /* Animation duration */
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* 150% zoom (Note: if the zoom is too large, it may go outside of the viewport) */
+}
