@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -62,12 +63,12 @@ function Home() {
               accomplishments, and plenty of resources to become the best
               problem solvers.
             </p>
-            <a
-              href="#"
-              className="inline-block hover:bg-[#4A0291] duration-300 ease-out hover:scale-[1.1] rounded-sm px-4 py-2 mt-5 bg-[#7133f5]"
-            >
-              Get Started
-            </a>
+            <Link
+      to="/about"
+      className="inline-block hover:bg-[#4A0291] duration-300 ease-out hover:scale-[1.1] rounded-sm px-4 py-2 mt-5 bg-[#7133f5]"
+    >
+      Get Started
+    </Link>
           </div>
           <div className="max-w-[400px] min-w-[250px] max-md:min-w-full">
             <div className="shadow1 p-1  overflow-hidden rounded-[24%]">
