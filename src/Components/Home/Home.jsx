@@ -52,7 +52,7 @@ function Home() {
       <div className="text-white">
         <div className="mx-auto max-w-screen-2xl px-[5vw] py-16 justify-center  flex gap-16 max-md:flex-col-reverse">
           <div className="pt-6">
-            <h2 className="font-semibold max-sm:text-5xl text-6xl">CODECHEF</h2>
+            <h2 className="font-semibold max-sm:text-5xl text-6xl">GFG</h2>
             <h2 className="text-4xl font-semibold">
               <span className="text-[#7133F5]">&lt;ADGIPS&gt;</span> Chapter
             </h2>

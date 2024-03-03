@@ -11,7 +11,7 @@ function About() {
             <h2>How we work ?</h2>
             <img src="/assets/about1.png" alt="about1" className="zoom"/>
             <p>
-              Codechef ADGITM chapter organises regular contests , hackathons ,
+              GFG ADGITM chapter organises regular contests , hackathons ,
               weekly and monthly meets , sessions with mentors and seniors , all
               to bring out the best in us and motivate us to aspire high in the
               future.
