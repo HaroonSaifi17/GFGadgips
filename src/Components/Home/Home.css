@@ -1,0 +1,115 @@
+:root {
+	--gradient-shadow: linear-gradient(
+		45deg,
+		#fb0094,
+		#0000ff,
+		#00ff00,
+		#ffff00,
+		#ff0000,
+		#fb0094,
+		#0000ff,
+		#00ff00,
+		#ffff00,
+		#ff0000
+	);
+}
+.shadow1 {
+	position: relative;
+}
+.shadow1:before,
+.shadow1:after {
+	content: "";
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	background: var(--gradient-shadow);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: animate1 20s linear infinite;
+}
+
+.shadow1:after {
+	filter: blur(20px);
+}
+
+@keyframes animate1 {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 300% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+
+@keyframes moveLeftRight1 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-50px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveLeftRight2 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-80px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveLeftRight3 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveLeftRight4 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-120px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#path1 {
+  animation: moveLeftRight1 5s infinite;
+}
+
+#path2 {
+  animation: moveLeftRight2 7s infinite;
+}
+
+#path3 {
+  animation: moveLeftRight3 9s infinite;
+}
+
+#path4 {
+  animation: moveLeftRight4 11s infinite;
+}
+.w1{
+  width: calc(100vw + 120px);
+}

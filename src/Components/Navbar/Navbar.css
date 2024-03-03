@@ -1,6 +1,9 @@
 .active{
   border:2px solid white;
   padding:5px 15px ;
-  border-radius: 100px;
   background: #4A0291;
+}
+.active:hover{
+  background: #7133f5 !important;
+  color: white !important;
 }

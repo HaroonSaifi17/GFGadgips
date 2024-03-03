@@ -6,17 +6,6 @@ function Navbar() {
   const location = useLocation(); 
   const [navStatus, setNavStatus] = useState(false);
 
-  React.useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://apply.devfolio.co/v2/sdk.js";
-    script.async = true;
-    script.defer = true;
-    document.body.appendChild(script);
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
-
   const toggleNav = () => {
     setNavStatus(!navStatus);
     if (!navStatus && window.innerWidth <= 770) {
@@ -56,62 +45,64 @@ function Navbar() {
           </Link>
         </div>
         <div
-          className={`max-md:fixed max-md:w-[60vw] duration-500  z-10 max-md:h-full max-md:bg-[#1a1a1a] max-md:flex-col items-center max-md:justify-center max-md:shadow flex gap-6 justify-between  max-md:top-0 ${
+          className={`max-md:fixed max-md:w-[60vw] duration-300  z-10 max-md:h-full max-md:bg-[#1a1a1a] max-md:flex-col items-center max-md:justify-center max-md:shadow flex gap-6 justify-between  ease-in max-md:top-0 ${
             navStatus ? "right-0" : "-right-[60vw]"
           }`}
         >
-          <Link className={isActive("/")} onClick={toggleNav} to={"/"}>
+          <Link className={`${isActive("/")} rounded-full ease-out  hover:text-[#7133f5] duration-300`}  onClick={toggleNav} to={"/"}>
             Home
           </Link>
           <Link
-            className={isActive("/about")}
+className={`${isActive("/about")} rounded-full ease-out  hover:text-[#7133f5]  duration-300`}  
             onClick={toggleNav}
             to={"/about"}
           >
-            About Us
+            About
           </Link>
-          <Link className={isActive("/team")} onClick={toggleNav} to={"/team"}>
-            Our Team
+          <Link 
+className={`${isActive("/team")} rounded-full ease-out  hover:text-[#7133f5] duration-300`}  
+            onClick={toggleNav} to={"/team"}>
+            Team
           </Link>
           <Link
-            className={isActive("/department")}
+className={`${isActive("/department")} rounded-full ease-out  hover:text-[#7133f5]  duration-300`}  
             onClick={toggleNav}
             to={"/department"}
           >
             Department
           </Link>
           <Link
-            className={isActive("/events")}
+className={`${isActive("/events")}  rounded-full ease-out  hover:text-[#7133f5]  duration-300`}  
             onClick={toggleNav}
             to={"/events"}
           >
             Events
           </Link>
           <Link
-            className={isActive("/contact")}
+className={`${isActive("/contact")} rounded-full ease-out  hover:text-[#7133f5] duration-300`}  
             onClick={toggleNav}
             to={"/contact"}
           >
-            Contact Us
+            Contact
           </Link>
         </div>
         <div className=" hidden max-md:block ">
-          <a onClick={toggleNav} className="flex  items-center z-10  relative">
-            <div className="w-10  flex flex-col justify-center gap-2 items-end">
+          <a onClick={toggleNav} className="flex   items-center z-10  relative">
+            <div className="w-10  flex flex-col ease-out justify-center gap-2 items-end">
               <div
-                className={`h-1 rounded-md w-full  duration-100 bg-white ${
+                className={`h-1 rounded-md w-full  duration-300 bg-white ${
                   navStatus ? "rotate-45 translate-y-3" : ""
                 }`}
               ></div>
               <div
-                className={`h-1 w-[75%] rounded-md  duration-100${
+                className={`h-1 w-[75%] rounded-md  duration-300${
                   navStatus ? "bg-transparent" : " bg-white "
                 }`}
               ></div>
               <div
-                className={`h-1 rounded-md bg-white  duration-100 ${
+                className={`h-1 rounded-md bg-white  duration-300 ${
                   navStatus
-                    ? "-rotate-45 w-[100%] -translate-y-3 duration-100"
+                    ? "-rotate-45 w-[100%] -translate-y-3 duration-300"
                     : " w-[50%] "
                 }`}
               ></div>
