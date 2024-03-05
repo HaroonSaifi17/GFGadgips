@@ -6,7 +6,7 @@ function Home() {
   return (
     <>
       <div className="bg-black fixed top-0 left-0 w-full h2 -z-10">
-        <div className="absolute bottom-[50px] max-md:bottom-0 left-0 w1 min-w-[1000px] overflow-hidden">
+        <div className="absolute bottom-[50px] left-0 w1 min-w-[1400px] overflow-hidden">
           <svg
             viewBox="0 0 1597 493"
             fill="none"
@@ -52,13 +52,13 @@ function Home() {
       <div className="text-white">
         <div className="mx-auto max-w-screen-2xl px-[5vw] py-16 justify-center  flex gap-16 max-md:flex-col-reverse">
           <div className="pt-6">
-            <h2 className="font-semibold max-sm:text-5xl text-6xl">GFG</h2>
+            <h2 className="font-semibold max-sm:text-5xl text-6xl">Geeks for Geeks</h2>
             <h2 className="text-4xl font-semibold">
               <span className="text-[#7133F5]">&lt;ADGIPS&gt;</span> Chapter
             </h2>
             <h4 className="mt-6 mb-4 font-semibold text-2xl">What we do?</h4>
             <p className="max-w-[500px]">
-              CodeChef ADGITM is a close-knit community of diligent coders who
+              GeeksforGeeks ADGIPS is a close-knit community of diligent coders who
               come together and share best practices, new coding
               accomplishments, and plenty of resources to become the best
               problem solvers.
@@ -73,7 +73,7 @@ function Home() {
           <div className="max-w-[400px] min-w-[250px] max-md:min-w-full">
             <div className="shadow1 p-1  overflow-hidden rounded-[24%]">
               <img
-                src="/assets/home1.png"
+                src="/assets/home1.webp"
                 className=" rounded-[24%] hover:rotate-1 duration-300 ease-in overflow-hidden"
                 alt="cc"
               />

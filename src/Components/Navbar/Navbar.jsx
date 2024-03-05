@@ -25,7 +25,7 @@ function Navbar() {
         <div className="-my-4 duration-200">
           <Link to={"/"}>
             {isActive("/") && (
-              <img className="h-[80px]" src="/assets/logo.png" alt="logo" />
+              <img className="h-[80px]" src="/assets/logo.webp" alt="logo" />
             )}
             {isActive("/about") && (
               <p className="font-semibold text-4xl">About Us</p>

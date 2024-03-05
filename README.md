@@ -1,4 +1,4 @@
-# CodeChefWebsite
+# GeeksforGeeks ADGIPS Website
 
 ## Installation
 
@@ -7,7 +7,7 @@ To get started, follow these steps:
 1. Clone this repository to your local machine.
 
 ```bash
-git clone https://github.com/haroonsaifi17/CodeChefWebsite && cd CodeChefWebsite
+git clone https://github.com/haroonsaifi17/GFGadgips && cd GFGadgips
 ```
 
 2. Install project dependencies using npm

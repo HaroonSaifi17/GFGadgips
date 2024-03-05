@@ -1,7 +1,7 @@
 .bg-wpr {
   height: 100vh;
   width: 100vw;
-  background-image: url("/assets/aboutBackground.png");
+  background-image: url("/assets/aboutBackground.webp");
   background-position: center;
   background-size: cover;
   background-color: #000000;
