@@ -14,10 +14,10 @@ function Team() {
           </div>
           <div className="flex gap-8 justify-center items-center flex-wrap mt-8">
             <div className="bg-card p-8">
-              <div className="shadow1 p-1">
+              <div className="shadow1 ">
                 <img
                   src="/assets/anushka.webp"
-                  className=" w-[250px] rounded-sm"
+                  className=" w-[250px] hover:translate-x-1 duration-500 hover:-translate-y-1 f1 rounded-sm"
                   alt=""
                 />
               </div>
@@ -27,10 +27,10 @@ function Team() {
               <h5 className="text-center text-xl">President</h5>
             </div>
             <div className="bg-card p-8">
-              <div className="shadow1 p-1">
+              <div className="shadow1 ">
                 <img
                   src="/assets/satyam.webp"
-                  className=" w-[250px] rounded-sm"
+                  className=" w-[250px] hover:translate-x-1 duration-500 hover:-translate-y-1 f1 rounded-sm"
                   alt=""
                 />
               </div>
@@ -40,10 +40,10 @@ function Team() {
               <h5 className="text-center text-xl">Voice President</h5>
             </div>
             <div className="bg-card p-8">
-              <div className="shadow1 p-1">
+              <div className="shadow1 ">
                 <img
+                  className=" w-[250px] hover:translate-x-1 duration-500 hover:-translate-y-1 f1 rounded-sm"
                   src="/assets/hardik.webp"
-                  className="w-[250px]  rounded-sm"
                   alt=""
                 />
               </div>
@@ -53,10 +53,10 @@ function Team() {
               <h5 className="text-center text-xl">General Secrectary</h5>
             </div>
             <div className="bg-card p-8">
-              <div className="shadow1 p-1">
+              <div className="shadow1 ">
                 <img
                   src="/assets/mansi.webp"
-                  className="w-[250px] rounded-sm"
+                  className=" w-[250px] hover:translate-x-1 duration-500 hover:-translate-y-1 f1 rounded-sm"
                   alt=""
                 />
               </div>
@@ -66,10 +66,10 @@ function Team() {
               <h5 className="text-center text-xl">Media Outreach Head</h5>
             </div>
             <div className="bg-card p-8">
-              <div className="shadow1 p-1">
+              <div className="shadow1 ">
                 <img
                   src="/assets/archita.webp"
-                  className=" w-[250px] rounded-sm"
+                  className=" w-[250px] hover:translate-x-1 duration-500 hover:-translate-y-1 f1 rounded-sm"
                   alt=""
                 />
               </div>

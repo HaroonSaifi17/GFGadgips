@@ -7,7 +7,7 @@ function About() {
       <div className="bg-wpr"></div>
       <div className="about">
         <div className="about-wpr">
-          <div className="min-w-[220px]">
+          <div className="min-w-[220px] py-10 rounded-3xl overflow-hidden bg-card p-6">
             <h2>How we work ?</h2>
             <img src="/assets/about1.webp" alt="about1" className="zoom"/>
             <p>
@@ -17,7 +17,7 @@ function About() {
               future.
             </p>
           </div>
-          <div className="min-w-[220px]">
+          <div className="min-w-[220px]  py-10 rounded-3xl overflow-hidden bg-card p-6">
             <h2>Our Goal</h2>
             <img src="/assets/about2.webp" alt="about2" className="zoom"/>
             <p>
@@ -26,7 +26,7 @@ function About() {
               and compete on a global scale.
             </p>
           </div>
-          <div className="min-w-[220px]">
+          <div className="min-w-[220px]  py-10 rounded-3xl overflow-hidden bg-card p-6">
             <h2>Why Should you Join Us?</h2>
             <img src="/assets/about3.webp" alt="about3" className="zoom"/>
             <p>
