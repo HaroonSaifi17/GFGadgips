@@ -45,7 +45,7 @@ function Navbar() {
           </Link>
         </div>
         <div
-          className={`max-md:fixed max-md:w-[60vw] duration-300  z-10 max-md:h-full max-md:bg-[#1a1a1a] max-md:flex-col items-center max-md:justify-center max-md:shadow flex gap-6 justify-between  ease-in max-md:top-0 ${
+          className={`max-md:fixed max-md:w-[60vw] duration-300  z-10 max-md:h-full max-md:bg-slate-950 max-md:flex-col items-center max-md:justify-center max-md:shadow flex gap-6 justify-between  ease-in max-md:top-0 ${
             navStatus ? "right-0" : "-right-[60vw]"
           }`}
         >
