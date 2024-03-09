@@ -6,7 +6,7 @@ function Department() {
     <>
       <div className="departmentbg-wpr"></div>
       <div>
-        <div className="mx-auto text-white max-w-screen-2xl px-[5vw] py-16">
+        <div className="mx-auto text-white max-w-screen-2xl px-[5vw] py-8">
           <div className="flex flex-wrap gap-10 justify-center items-center">
             <div className="w-[300px] bg-card p-10 rounded-lg overflow-hidden h-[316px] flex flex-col justify-between items-center">
               <img src="/assets/departmentManagement.webp" alt="department" className="zoom" />

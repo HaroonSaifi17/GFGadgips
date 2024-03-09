@@ -6,7 +6,7 @@ function Team() {
     <>
       <div className="teambg-wpr"></div>
       <div>
-        <div className="mx-auto text-white max-w-screen-2xl px-[5vw] py-16">
+        <div className="mx-auto text-white max-w-screen-2xl px-[5vw] py-8">
           <div className="flex justify-center">
             <h1 className="font-semibold text-3xl rounded-full px-5 py-3 bg-[#9500F0]">
               CORE TEAM
