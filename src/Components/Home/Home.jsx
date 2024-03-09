@@ -50,7 +50,7 @@ function Home() {
         </div>
       </div>
       <div className="text-white">
-        <div className="mx-auto max-w-screen-2xl px-[5vw] py-16 justify-center  flex gap-16 max-md:flex-col-reverse">
+        <div className="mx-auto max-w-screen-2xl px-[5vw] py-10 justify-center  flex gap-16 max-md:flex-col-reverse">
           <div className="pt-6">
             <h2 className="font-semibold max-sm:text-5xl text-6xl">Geeks for Geeks</h2>
             <h2 className="text-4xl font-semibold">
