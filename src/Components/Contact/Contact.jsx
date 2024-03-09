@@ -23,9 +23,19 @@ function Contact() {
             </p>
           </div>
         </div>
-        <p className="text-center text-sm text-gray-300 pb-2 px-[5vw]">
-          Build by <a href="https://github.com/HaroonSaifi17">@HaroonSaifi17</a>
-        </p>
+        <div className="text-center text-sm text-gray-300 pb-2 px-[5vw]">
+          <p className="font-semibold text-xl">Credits</p>
+          <p>Build And Design by:</p>
+          <p>
+            <a href="https://github.com/HaroonSaifi17">@HaroonSaifi17</a>
+          </p>
+          <p>
+            <a href="https://github.com/Dhurvgera">@DhurvGera</a>
+          </p>
+          <p>
+            <a href="https://github.com/AnishHazra">@AnishHazra</a>
+          </p>
+        </div>
       </div>
     </>
   );

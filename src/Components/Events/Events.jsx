@@ -20,7 +20,11 @@ function Events() {
               A weekend of innovation and creativity awaits! Join us for
               electrifying challenges, collaborative brilliance, and the chance
               to shape the future. Unleash y our potential and be part of a
-              vibrant community driving positive change. Let's hack together!
+              vibrant community driving positive change. Registration was amazing and
+              surprised us; free gifts were distributed to the candidates. It
+              was not just an event; it was a celebration for those who love to
+              code. It was the best opportunity for freshers to explore their
+              coding skills and gain knowledge.
             </p>
           </div>
         </div>
